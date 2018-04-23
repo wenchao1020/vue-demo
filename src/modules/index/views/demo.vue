@@ -1,0 +1,20 @@
+<template>
+    <div class="router-content">
+        <div> hello index page one</div>
+    </div>
+</template>
+<script>
+    export default {
+      data () {
+        return {
+        }
+      }
+    }
+</script>
+<style type="text/css">
+    .router-content {
+        line-height: 200px;
+        font-size: 30px;
+        text-align: center;
+    }
+</style>
