@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "demo project",
   "author": "wenchao1020 <237609820@qq.com>",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
