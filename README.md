@@ -20,7 +20,8 @@ nodejs发展历史，介绍的不错。请点击[这里](https://www.liaoxuefeng
 ````npm --registry https://registry.npm.taobao.org install````。
 
 # 运行
-````npm run dev```
+运行开发环境，直接执行
+````npm run dev````即可
 
 打包需要先运行
 ````npm run build:dll````打包各个模块所需的公共的文件（如vue.js）
