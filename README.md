@@ -22,7 +22,8 @@ nodejs发展历史，介绍的不错。请点击[这里](https://www.liaoxuefeng
 # 运行
 
 需要先运行
-````npm run build:dll````将各个模块所需的公共的文件（如vue.js）整合成一个文件引入，提升打包速度
+````npm run build:dll````将各个模块所需的公共的文件（如vue.js）整合成一个文件引入，提升打包速度，
+会生成一个public文件夹，含有vendor.dll.js文件和一个对应的json文件
 
 然后执行
 ````npm run dev````即可
