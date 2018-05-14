@@ -17,18 +17,20 @@ nodejs发展历史，介绍的不错。请点击[这里](https://www.liaoxuefeng
 * **安装项目所需依赖**
 
 执行命令````npm install````。如果安装比较慢或者未能正常安装，请使用淘宝镜像安装。
-````npm --registry https://registry.npm.taobao.org install````。
+````npm install --registry https://registry.npm.taobao.org ````。
 
 # 运行
-运行开发环境，直接执行
+
+需要先运行
+````npm run build:dll````将各个模块所需的公共的文件（如vue.js）整合成一个文件引入，提升打包速度
+
+然后执行
 ````npm run dev````即可
 
-打包需要先运行
-````npm run build:dll````打包各个模块所需的公共的文件（如vue.js）
-
-然后运行
+打包压缩需要运行
 ````npm run build````
 
 # 访问
 
-打开浏览器输入地址````http://localhost:8080````访问。
+打开浏览器输入地址````http://localhost:8080````即可访问，默认访问的是index.html
+如需访问其他模块可直接加入口文件名，如````http://localhost:8080/paas.html````

@@ -41,7 +41,6 @@ module.exports = {
     }),
 		  new HtmlWebpackPlugin({    // 创建入口html
 				  title: 'xx服务首页',
-				  favicon: './favicon.ico',
 				  filename: 'index.html',
 				  template: 'src/ejs/index.ejs',
 				  inject: true,
@@ -50,7 +49,6 @@ module.exports = {
 		  }),
     new HtmlWebpackPlugin({    // 创建入口html
       title: 'xx服务',
-      favicon: './favicon.ico',
       filename: 'paas.html',
       template: 'src/ejs/index.ejs',
       inject: true,

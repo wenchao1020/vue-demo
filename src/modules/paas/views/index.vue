@@ -17,11 +17,11 @@
             appName: 'paas系统',
             menu: [
               {
-                menuName: 'asdasdacc',
+                menuName: '密码验证',
                 path: '/demo/page1'
               },
               {
-                menuName: '第sdasdasdas菜单',
+                menuName: 'zhengti表单',
                 path: '/demo/page2'
               }
             ]

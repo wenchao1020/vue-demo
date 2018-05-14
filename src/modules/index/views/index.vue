@@ -14,14 +14,14 @@
       data () {
         return {
           menuList: {
-            appName: 'xxxx第一个系统',
+            appName: '默认系统',
             menu: [
               {
-                menuName: 'xxxx第一',
+                menuName: '表格',
                 path: '/demo1/page1'
               },
               {
-                menuName: 'xxxx第二',
+                menuName: 'step步骤条',
                 path: '/demo1/page2'
               }
             ]

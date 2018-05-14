@@ -38,17 +38,17 @@ module.exports = {
 						    changeOrigin: true
 				    },
 				    '**/*.json': {
-						    target: 'http://127.0.0.2:88/paas/',
+						    target: 'http://127.0.0.1:88/index/',
 						    changeOrigin: true
 				    }
 		    },
       paas: {
         '**/*.do': {
-          target: 'http://183.3.205.120:88/oss-paas/',
+          target: 'http://127.0.0.1:88/paas/',
           changeOrigin: true
         },
         '**/*.json': {
-          target: 'http://183.3.205.120:88/oss-paas/',
+          target: 'http://127.0.0.1:88/paas/',
           changeOrigin: true
         }
       }
