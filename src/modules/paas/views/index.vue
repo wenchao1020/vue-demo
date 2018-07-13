@@ -17,12 +17,12 @@
             appName: 'paas系统',
             menu: [
               {
-                menuName: '密码验证',
-                path: '/demo/page1'
+                menuName: '添加用户',
+                path: '/demo/add'
               },
               {
-                menuName: 'zhengti表单',
-                path: '/demo/page2'
+                menuName: '用户列表',
+                path: '/demo/list'
               }
             ]
           }

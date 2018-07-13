@@ -44,7 +44,7 @@
         line-height: 60px;
         font-size: 16px;
         color: #fff;
-        padding-left: 70px;
+        padding-left: 20px;
         background-size: 24px 24px;
         display: inline-block;
     }

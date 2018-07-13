@@ -6,7 +6,7 @@ import axios from 'axios'
 axios.defaults.timeout = 10 * 1000
 axios.defaults.withCredentials = true
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
-axios.defaults.baseURL = ''
+axios.defaults.baseURL = 'http://123.com/'
 
 axios.interceptors.request.use(function (config) {
   config.url = '' + config.url

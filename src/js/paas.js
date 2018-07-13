@@ -9,6 +9,8 @@ import store from '../store'
 import * as filters from '@/common/filters'
 import Axios from '@/common/api/http'
 import router from '@/modules/paas/router'
+import Mock from '@/mock'
+Mock.created()
 
 Vue.use(ElementUI)
 Vue.prototype.$http = Axios

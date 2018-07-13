@@ -5,21 +5,21 @@ Vue.use(VueRouter)
 
 var router = new VueRouter({
   routes: [
-    { path: '/', redirect: 'demo/page1' },
-    { path: '', redirect: 'demo/page1' },
+    { path: '/', redirect: 'demo/list' },
+    { path: '', redirect: 'demo/list' },
     {
       path: '/demo',
       component: resolve => require(['./views/index'], resolve),
       children: [
         {
-          path: 'page1',
-          name: 'demoPage1',
-          component: resolve => require(['./views/demo'], resolve)
+          path: 'list',
+          name: 'userList',
+          component: resolve => require(['./views/userList'], resolve)
         },
         {
-          path: 'page2',
-          name: 'demoPage2',
-          component: resolve => require(['./views/demo-page-b'], resolve)
+          path: 'add',
+          name: 'userAdd',
+          component: resolve => require(['./views/addUser'], resolve)
         }
       ]
     },
