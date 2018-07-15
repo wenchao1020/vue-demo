@@ -38,4 +38,4 @@ nodejs发展历史，介绍的不错。请点击[这里](https://www.liaoxuefeng
 
 #新增mockjs
 
-添加mockjs，随机生成模拟数据
+添加mockjs，生成模拟数据
