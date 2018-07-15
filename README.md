@@ -36,6 +36,6 @@ nodejs发展历史，介绍的不错。请点击[这里](https://www.liaoxuefeng
 打开浏览器输入地址````http://localhost:8080````即可访问，默认访问的是index.html
 如需访问其他模块可直接加入口文件名，如````http://localhost:8080/paas.html````
 
-#新增mockjs
+# 新增mockjs
 
-添加mockjs，生成模拟数据
+添加mockjs，生成模拟数据，完整的增删改查的例子````http://localhost:8080/paas.html````
