@@ -2,7 +2,7 @@ import axios from 'axios'
 import Mock from 'mockjs'
 import MockAdapter from 'axios-mock-adapter'
 // MockAdapter是一个模拟后台get的请求，es6语法
-import { LoginUsers, UsersList } from './data/user'
+import { UsersList } from './data/user'
 // 同样以LoginUsers, Users 的方式来接收，from的url
 let _UsersList = UsersList
 
