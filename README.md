@@ -5,7 +5,7 @@
 
 * **nodejs安装**
 
-下载window安装包[node-v8.10.0](http://yum.longcloud.tech:99/release/software/node-v8.10.0-x64.msi)。
+下载window安装包[node-v8.10.0](https://nodejs.org/zh-cn/download/)。
 下载完后，双击默认安装即可。
 
 nodejs学习文档，请点击[这里](http://nodejs.cn/api/)。
