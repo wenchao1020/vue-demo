@@ -4,7 +4,7 @@ const LoginUsers = [
   {
     id: 1,
     username: 'admin',
-    password: 'password',
+    password: 'password123',
     name: '管理员'
   }
 ]
